@@ -159,8 +159,7 @@ form label{
     font-weight: normal;
 }
 
-.maincontactform{
-    align-self: center;    
+.maincontactform{   
     width: 25%;
     padding-right: 5%;
     white-space: nowrap;
@@ -229,7 +228,7 @@ textarea{
 }
 
 footer{
-    background-color: gray;
+    background-color: #828282;
     bottom: 0%;
     width: 100%;
 }
@@ -301,6 +300,20 @@ footer{
     padding-bottom: 0.5%;
 }
 
+@media(max-width:1400px){
+    .footermain{
+        display: flex;
+        padding-top: 2%;
+        justify-content: space-around;
+    }
+
+    .maincontent{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+}
 @media(max-width:800px){
 
 .maincontent{

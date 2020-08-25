@@ -33,6 +33,11 @@ body {
     font-family: Roboto, Arial, sans-serif;
 }
 
+html {
+    font-size: 62.5%;
+}
+
+
 ol, ul {
 	list-style: none;
 }
@@ -66,7 +71,7 @@ table {
     color: #FFFFFF;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 1.7rem;
     display: block;
   }
 /* Style the hamburger menu */
@@ -92,29 +97,29 @@ table {
 
   h1{
     color: white;
-    font-size: 64px;
+    font-size: 6.4rem;
     font-weight: bold;
     padding-top: 145px;
     padding-left: 5%;
-    line-height: 24px;
+    line-height: 1rem;
 }
 .maincontactform h2{
-    font-size: 28px;
+    font-size: 2.8rem;
     font-weight: bold;
     color:#222222;
 }
 .contactlocation h2{
-    font-size: 28px;
+    font-size: 2.8rem;
     font-weight: bold;
     color:#222222;
 }
 .contactlocation h3{
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 2rem;
+    line-height: 2.4rem;
 }
 
 .maincontactform h4{
-    font-size: 12px;
+    font-size: 1.2rem;
     color: gray;
 }
 
@@ -126,7 +131,7 @@ form{
 form label{
     padding-top: 6%;
     padding-bottom: 1%;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 
@@ -136,7 +141,7 @@ form label{
     background-position: center;
     background-image: url(/img/contact/contact-jumbotron.png);
     width: 100%;
-    height: 200px;
+    height: 20rem;
     opacity: 100%;
     alt: "Skyscrapers from the bottom looking up.";
 }
@@ -146,10 +151,10 @@ form label{
     flex-direction: row;
     justify-content: center;
     padding-top: 2%;
+    padding-bottom: 2%;
 }
 
-.maincontent p{
-    margin: 0px;
+.CNY{
     margin-top: 2%;
     font-weight: normal;
 }
@@ -172,10 +177,17 @@ form label{
 }
 
 .bordered{
-    border-radius: 5px;
+    border-radius: 0.5rem;
     border-style: solid;
     border-color: #b1b1b1;
     border-width: 1px;
+    height: 3.5rem;
+}
+
+.maincontactform input[placeholder]{
+    font-size: 2rem;
+    font-weight: lighter;
+    padding-left: 2%;
 }
 
 input[type=submit]{
@@ -183,9 +195,9 @@ input[type=submit]{
     border-style: solid;
     border-color: #222222;
     border-width: 1px;
-    width: 125px;
-    height: 45px;
-    font-size: 20px;
+    width: 12.5rem;
+    height: 4.5rem;
+    font-size: 2rem;
     font-weight: normal;
     color: #222222;
     border-radius: 0px;
@@ -216,30 +228,77 @@ textarea{
     padding-bottom: 1%;
 }
 
-@media(max-width:500px){ 
-.maincontent{
-flex-direction: column;
+footer{
+    background-color: gray;
+    bottom: 0%;
+    width: 100%;
 }
 
-input[type=submit]{
-width: 100%;
+.footermain{
+    display: flex;
+    padding-top: 2%;
+    justify-content: center;
 }
 
-.maincontactform{
-align-self: center;    
-width: 100%;
-padding: 5%;
-white-space: nowrap;
+.footercontact{
+    width: 25%;
 }
 
-.maincontactform h4{
-padding-left: 8%;
+.footercontact h2{
+    font-size: 2rem;
+    color:white;
+    font-weight: bold;
 }
 
-.CNY{
-padding-top: 50%;
+.footercontact input{
+    width: 35rem;
+    height: 4rem;
+    margin-top: 1.5%;
+    margin-bottom: 1%;
 }
 
+.footercontact input[placeholder]{
+    font-size: 2rem;
+    font-weight: lighter;
+    padding-left: 2%;
+}
+
+.footercontact h4{
+    font-size: 1.2rem;
+    color:white;
+}
+
+.footerlocations{
+    display: flex;
+    width: 35%;
+    justify-content: space-around;
+}
+
+.footerlocations h3{
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 2%;
+}
+
+.footerlocations p{
+    font-size: 1.6rem;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+    font-weight: lighter;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+}
+
+.copyright h3{
+    color: white;
+    font-size: 1.2rem;
+    padding-top: 1%;
+    padding-bottom: 0.5%;
 }
 
 @media(max-width:800px){
@@ -268,4 +327,78 @@ input[type=submit]{
     padding-left: 0%;
     }
 
+.footermain{
+    display: flex;
+    padding-top: 2%;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 2%;
+    }
+
+.footercontact{
+    white-space: nowrap;
+    padding-bottom: 3%;
+    padding-top: 2%;
 }
+
+.footerlocations{
+    flex-direction: column;
+}
+
+.copyright{
+    display: flex;
+    justify-content: left;
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+}
+
+@media(max-width:500px){ 
+    .maincontent{
+    flex-direction: column;
+    }
+    
+    input[type=submit]{
+    width: 100%;
+    }
+    
+    .maincontactform{
+    align-self: center;    
+    width: 100%;
+    padding: 5%;
+    white-space: nowrap;
+    }
+    
+    .maincontactform h4{
+    padding-left: 8%;
+    }
+    
+    .CNY{
+    padding-top: 50%;
+    }
+    
+    .footercontact{
+        padding-bottom: 5%;
+    }
+
+    .FCNY h3{
+        padding-top: 10%;
+    }
+
+    .footerlocations{
+        padding-bottom: 4%;
+    }
+
+    .copyright{
+        padding-bottom: 5%;
+    }
+
+    .footercontact h4{
+        padding-top: 10%;
+    }
+
+    .footercontact form{
+        padding-top: 10%;
+    }
+
+    }

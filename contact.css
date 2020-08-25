@@ -215,3 +215,57 @@ textarea{
     padding-top: 7%;
     padding-bottom: 1%;
 }
+
+@media(max-width:500px){ 
+.maincontent{
+flex-direction: column;
+}
+
+input[type=submit]{
+width: 100%;
+}
+
+.maincontactform{
+align-self: center;    
+width: 100%;
+padding: 5%;
+white-space: nowrap;
+}
+
+.maincontactform h4{
+padding-left: 8%;
+}
+
+.CNY{
+padding-top: 50%;
+}
+
+}
+
+@media(max-width:800px){
+
+.maincontent{
+    flex-direction: column;
+    padding: 5%;
+}
+
+input[type=submit]{
+    width: 100%;
+}
+
+.maincontactform{
+    align-self: center;    
+    width: 100%;
+    padding: 3%;
+    white-space: nowrap;
+}
+
+.CNY{
+    padding-top: 25%;
+}
+
+.maincontactform h4{
+    padding-left: 0%;
+    }
+
+}

@@ -278,12 +278,21 @@ textarea{
     margin-top: 2%;
 }
 
+.indexcontentbox1 h2{
+    margin-bottom: 1rem;
+}
+
+.indexcontentbox2 h2{
+    margin-bottom: 1rem;
+}
+
 .indexbody button{
     background: white;
     border: 1px solid #222222;
     font-size: 1.6rem;
     font-weight: lighter;
     padding: 1.2rem 3.5rem;
+    margin-top: 1rem;
 
 }
 
@@ -291,6 +300,7 @@ textarea{
     margin-right: 2%;
     margin-top: 3%;
 }
+
 
 .contentboximage{
     overflow: hidden;
@@ -555,6 +565,118 @@ input[type=submit]{
     padding-left: 2%;
     padding-bottom: 2%;
 }
+
+.indexcontentbox1{
+    flex-direction: column;
+}
+
+
+.contentboximage{
+    width: 100%;
+    margin: 1rem;
+    order: 1;
+}
+.contentboxtext{
+    order: 2;
+    align-self: center;
+    margin: 2%;
+    margin-top: 3%;
+}
+
+.contentboxtext button{
+    order: 2;
+    align-self: center;
+    margin-top: 3%;
+}
+
+.contentboxtext p{
+    order: 2;
+    align-self: center;
+    margin-top: 3%;
+}
+
+.indexcontentbox2{
+    flex-direction: column;
+}
+
+.contentboximage2{
+    width: 100%;
+    margin: 1rem;
+    order: 1;
+}
+.contentboxtext2{
+    order: 2;
+    align-self: center;
+    margin: 2%;
+    margin-top: 3%;
+}
+
+.contentboxtext2 button{
+    order: 2;
+    align-self: center;
+    margin-top: 3%;
+}
+
+.contentboxtext2 p{
+    order: 2;
+    align-self: center;
+    margin-top: 3%;
+}
+
+.break{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 0%;
+}
+
+.projectsbox1{
+    width: 100%;
+}
+
+.villas{
+    width: 100%;
+}
+
+.outskirts{
+    width: 100%;
+}
+
+.blocks{
+    width: 100%;
+}
+
+.projectsoverlay{
+    z-index: 2;
+    float: center;
+    position: absolute;
+    left: 25%;
+    
+}
+
+.projectsoverlay2{
+    z-index: 2;
+    float: center;
+    position: absolute;
+    left: 25%;
+    
+}
+
+.projectsoverlay3{
+    z-index: 2;
+    float: center;
+    position: absolute;
+    left: 25%;
+    
+}
+
+.villastext{
+    margin-top: 2rem;
+    padding: 0rem 5rem 5rem 5rem;
+}
+.villastext p{
+    margin: 5rem 0rem 5rem 0rem;
+}
+
 }
 
 @media(max-width:500px){ 
@@ -603,6 +725,116 @@ input[type=submit]{
 
     .footercontact form{
         padding-top: 10%;
+    }
+
+    .indexcontentbox1{
+        flex-direction: column;
+    }
+
+    .contentboximage{
+        width: 100%;
+        margin: 1rem;
+        order: 1;
+    }
+    .contentboxtext{
+        order: 2;
+        align-self: center;
+        margin: 2%;
+        margin-top: 3%;
+    }
+
+    .contentboxtext button{
+        order: 2;
+        align-self: center;
+        margin-top: 3%;
+    }
+
+    .contentboxtext p{
+        order: 2;
+        align-self: center;
+        margin-top: 3%;
+    }
+
+    .indexcontentbox2{
+        flex-direction: column;
+    }
+
+    .contentboximage2{
+        width: 100%;
+        margin: 1rem;
+        order: 1;
+    }
+    .contentboxtext2{
+        order: 2;
+        align-self: center;
+        margin: 2%;
+        margin-top: 3%;
+    }
+
+    .contentboxtext2 button{
+        order: 2;
+        align-self: center;
+        margin-top: 3%;
+    }
+
+    .contentboxtext2 p{
+        order: 2;
+        align-self: center;
+        margin-top: 3%;
+    }
+
+    .break{
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 0%;
+    }
+
+    .projectsbox1{
+        width: 100%;
+    }
+
+    .villas{
+        width: 100%;
+    }
+
+    .outskirts{
+        width: 100%;
+    }
+
+    .blocks{
+        width: 100%;
+    }
+
+    .projectsoverlay{
+        z-index: 2;
+        float: center;
+        position: absolute;
+        left: 25%;
+        
+    }
+
+    .projectsoverlay2{
+        z-index: 2;
+        float: center;
+        position: absolute;
+        left: 25%;
+        
+    }
+
+    .projectsoverlay3{
+        z-index: 2;
+        float: center;
+        position: absolute;
+        left: 25%;
+        
+    }
+
+    .villastext{
+        margin-top: 2rem;
+        padding: 0rem 5rem 5rem 5rem;
+    }
+    .villastext p{
+        margin: 5rem 0rem 5rem 0rem;
     }
 
     }

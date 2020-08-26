@@ -280,7 +280,7 @@ textarea{
 
 .indexbody button{
     background: white;
-    border: 1px solid black;
+    border: 1px solid #222222;
     font-size: 1.6rem;
     font-weight: lighter;
     padding: 1.2rem 3.5rem;
@@ -336,9 +336,86 @@ textarea{
 .villas{
     background-size: cover;
     background-position: center;
-    background-image: url(img/home/home-mobile-villas-img.png);
-    width: 70rem;
+    image-rendering: optimizeQuality;
+    background-image: url(img/home/home-villas-img.png);
+    width: 100rem;
     height: 20rem;
+    z-index: 1;
+    position: relative;
+}
+
+.projectsoverlay{
+    z-index: 2;
+    float: right;
+    position: absolute;
+    left: 77%;
+    top: 80%;
+}
+
+.projectsoverlay2{
+    z-index: 2;
+    float: right;
+    position: absolute;
+    top: 80%;
+}
+
+.projectsoverlay3{
+    z-index: 2;
+    float: right;
+    position: absolute;
+    left: 76%;
+    top: 80%;
+}
+
+.outskirts{
+    background-size: cover;
+    background-position: center;
+    image-rendering: optimizeQuality;
+    background-image: url(img/home/home-outskirts-img.png);
+    width: 100rem;
+    height: 20rem;
+    z-index: 1;
+    position: relative;
+}
+
+.blocks{
+    background-size: cover;
+    background-position: center;
+    image-rendering: optimizeQuality;
+    background-image: url(img/home/home-the-blocks-img.png);
+    width: 100rem;
+    height: 20rem;
+    z-index: 1;
+    position: relative;
+}
+
+.projectsoverlay h2{
+    background: #D8D8D8;
+    padding: 2rem 6rem 2rem 6rem;
+    border: 1px solid white;
+    white-space: nowrap;
+}
+
+.projectsoverlay2 h2{
+    background: #D8D8D8;
+    padding: 2rem 6rem 2rem 6rem;
+    border: 1px solid white;
+    white-space: nowrap;
+}
+
+.projectsoverlay3 h2{
+    background: #D8D8D8;
+    padding: 2rem 6rem 2rem 6rem;
+    border: 1px solid white;
+    white-space: nowrap;
+}
+
+.villastext{
+    margin-top: 7rem;
+    padding: 0rem 70rem 10rem 70rem;
+}
+.villastext p{
+    margin: 5rem 0rem 5rem 0rem;
 }
 /*Footer CSS */
 footer{

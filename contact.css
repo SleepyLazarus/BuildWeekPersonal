@@ -282,7 +282,7 @@ textarea{
     margin-bottom: 1rem;
 }
 
-.indexcontentbox2 h2{
+.indexcontentbox2s h2{
     margin-bottom: 1rem;
 }
 
@@ -326,7 +326,7 @@ textarea{
     background-image: url(/img/home/home-img-2.png);
     width: 20%;
     height: 25rem;
-    alt: "A pen laying on graph paper";
+    alt: "Modern buildings surrounding a pool of water";
     order: -1;
     margin-right: 2%;
 }
@@ -352,6 +352,7 @@ textarea{
     height: 20rem;
     z-index: 1;
     position: relative;
+    alt: "A modern villa.";
 }
 
 .projectsoverlay{
@@ -386,6 +387,7 @@ textarea{
     height: 20rem;
     z-index: 1;
     position: relative;
+    alt: "Modern buildings surrounded by a large body of water";
 }
 
 .blocks{
@@ -397,6 +399,7 @@ textarea{
     height: 20rem;
     z-index: 1;
     position: relative;
+    alt: "Victorian buildings lined up in assorted colors.";
 }
 
 .projectsoverlay h2{
